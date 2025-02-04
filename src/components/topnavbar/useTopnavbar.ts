@@ -141,8 +141,6 @@ export default function useTopnavbar() {
                     menu.subMenus.some((subMenu) => getActiveUrl(subMenu.path)))
         );
         setActiveMenu(activeMenuObj || null);
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pathName]);
 
     useEffect(() => {
