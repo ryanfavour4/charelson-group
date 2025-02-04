@@ -42,6 +42,19 @@
     background: rgba(var(--primary-rgb) / 0.6);
 }
 
+html {
+    --dark: 0, 0, 0; /* black */
+    --light: 255, 255, 255; /* white */
+    --ghost-white: 250, 250, 250; /* Neutral gray */
+    --primary: 33, 46, 160; /* blue for primary */
+    --secondary: 230, 244, 241; /* Light teal for secondary */
+    --textcolor: 62, 65, 76; /* Light gray for text */
+    --error: 217, 45, 32; /* Bright red */
+    --warning: 253, 176, 34; /* Amber */
+    --success: 5, 79, 49; /* Deep green */
+    --info: 14, 54, 255; /* Rich blue */
+}
+
 html.light {
     --dark: 0, 0, 0; /* black */
     --light: 255, 255, 255; /* white */
