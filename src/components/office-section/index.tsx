@@ -7,10 +7,10 @@ export default function OfficeSection() {
   return (
     <div id="offices" className=" md:px-14 px-5">
       <div className="text-center">
-      <h2 className=" text-[22px] text-blue-800 font-bold pt-20 font-serif">
+      <h2 className=" text-[22px] text-blue-800 font-bold pt-20 ">
             Gallery
           </h2>
-          <h1 className="text-[40px] font-bold pb-16 text-blue-950 font-serif">
+          <h1 className="text-[40px] font-bold pb-16 text-blue-950 ">
             Our Space
           </h1>
       </div>
@@ -45,7 +45,7 @@ export default function OfficeSection() {
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="bg-primary px-12 py-3 rounded-full mt-10 text-white font-bold font-serif">
+        <button className="bg-primary px-12 py-3 rounded-full mt-10 text-white font-bold ">
           Get in Touch
         </button>
       </div>

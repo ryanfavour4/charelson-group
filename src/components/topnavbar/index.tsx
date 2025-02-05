@@ -16,7 +16,7 @@ export default function TopNavbar({ menus = defaultmenu }) {
 
   return (
     <>
-      <nav className="relative pb-16 md:pb-20">
+      <nav className="relative pb-16 md:pb-20  flex justify-between">
         <div className="fixed left-0 right-0 top-0 z-20 w-full bg-primary py-2">
           <div className="wrapper flex items-center justify-between">
             <a href={"#"}>
