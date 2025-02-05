@@ -77,9 +77,9 @@ export default function TopNavbar({ menus = defaultmenu }) {
             </div>
 
             <div className="flex items-center justify-between gap-5 ">
-              <button className="btn-white w-fit rounded-full px-5 py-2 text-black ">
+              <a href="#contact" className="btn-white w-fit rounded-full px-5 py-2 text-black ">
                 Contact us
-              </button>
+              </a>
               <button
                 onClick={() => setNavOpen((p) => !p)}
                 className="inline-block md:hidden"

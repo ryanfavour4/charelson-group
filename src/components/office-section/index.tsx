@@ -45,9 +45,9 @@ export default function OfficeSection() {
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="bg-primary px-12 py-3 rounded-full mt-10 text-white font-bold ">
+        <a href="#contact" className=""><button className="bg-primary px-12 py-3 rounded-full mt-10 text-white font-bold ">
           Get in Touch
-        </button>
+        </button></a>
       </div>
     </div>
   );
