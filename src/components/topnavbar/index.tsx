@@ -76,7 +76,7 @@ export default function TopNavbar({ menus = defaultmenu }) {
               </ul>
             </div>
 
-            <div className="flex items-center justify-between gap-5 pr-40">
+            <div className="flex items-center justify-between gap-5 ">
               <button className="btn-white w-fit rounded-full px-5 py-2 text-black ">
                 Contact us
               </button>
