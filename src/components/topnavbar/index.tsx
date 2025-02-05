@@ -24,7 +24,7 @@ export default function TopNavbar({ menus = defaultmenu }) {
                             <img
                                 src={logo}
                                 alt="logo"
-                                className="w-24 md:w-28"
+                                className="w-20 md:w-22"
                                 width={100}
                                 height={50}
                             />
@@ -98,7 +98,7 @@ export default function TopNavbar({ menus = defaultmenu }) {
 
                         <div className="flex items-center justify-between gap-5 pr-40">
                            
-                            <button className="btn-white w-fit rounded-full px-8 py-3 text-black font-serif">Contact</button>
+                            <button className="btn-white w-fit rounded-full px-5 py-2 text-black ">Contact us</button>
                             <button
                                 onClick={() => setNavOpen((p) => !p)}
                                 className="inline-block md:hidden"
