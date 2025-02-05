@@ -14,15 +14,11 @@ export default function AboutUs() {
             Get to know us
           </h1>
           <p className=" text-gray-700  pb-4">
-            The "About Us" section introduces the organization, giving visitors
-            insight into its experience, mission, and commitment to hospitality
-            excellence. "We are a trusted hospitality management partner with
-            decades of combined experience, offering tailored solutions that
-            transform hotels into exceptional guest experiences. By focusing on
-            operational excellence, revenue growth, and talent development, we
-            ensure lasting success for hotel owners and investors alike." A
-            well-placed image of a vibrant hotel lobby enhances visual
-            engagement.
+            At Charleson Group,We are a trusted hospitality partner with decades of experience,
+            transforming hotels into unforgettable guest experiences. By
+            focusing on operational excellence, revenue growth, and talent
+            development, we help hotel owners achieve lasting success. A vibrant
+            hotel lobby image reflects our dedication to quality and innovation.
           </p>
           <>
             <h1 className="text-[30px] font-bold  pb-3 text-blue-950">
@@ -62,10 +58,11 @@ export default function AboutUs() {
                 preferences.
               </li>
               <li>Seamless handling of tasks, providing peace of mind.</li>
+              <li>On-call support for personalized requests and emergencies</li>
               <li>
-              On-call support for personalized requests and emergencies
+                Enjoy the benefits of a personal assistant available 24/7
+                without lifting a finger
               </li>
-              <li>Enjoy the benefits of a personal assistant available 24/7 without lifting a finger</li>
             </ol>
           </>
         </div>
