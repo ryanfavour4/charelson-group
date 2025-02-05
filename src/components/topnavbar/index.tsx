@@ -96,11 +96,9 @@ export default function TopNavbar({ menus = defaultmenu }) {
                             </ul>
                         </div>
 
-                        <div className="flex items-center justify-between gap-5">
-                            <span className="mr-4 hidden cursor-pointer text-2xl text-light md:inline">
-                                <FaMagnifyingGlass />
-                            </span>
-                            <button className="btn-white w-fit">Donate</button>
+                        <div className="flex items-center justify-between gap-5 pr-40">
+                           
+                            <button className="btn-white w-fit rounded-full px-8 py-3 text-black font-serif">Contact</button>
                             <button
                                 onClick={() => setNavOpen((p) => !p)}
                                 className="inline-block md:hidden"

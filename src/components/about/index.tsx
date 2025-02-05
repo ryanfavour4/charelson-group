@@ -1,7 +1,7 @@
 import aboutimage from "/assets/images/about-image-1.jpg";
 export default function AboutUs() {
   return (
-    <div className="wrapper md:px-4 px-2 pt-16">
+    <div id="about" className="wrapper md:px-4 px-2 pt-16">
       <div className="md:grid grid-cols-2 place-items-center gap-6">
         <div className="w-full mb-8 md:mb-0 border-2 border-gray-200 rounded-lg overflow-hidden">
           <img src={aboutimage} className="w-full" alt="about image" />

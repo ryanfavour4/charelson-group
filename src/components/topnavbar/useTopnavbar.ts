@@ -19,98 +19,23 @@ export const menus: menu_type[] = [
     },
     {
         title: "About us",
-        path: "/about",
+        path: "#about",
     },
     {
-        title: "What we do",
-        subPath: "/what-we-do",
-        subMenus: [
-            {
-                title: "Educational Program",
-                path: "/educational-program",
-            },
-            {
-                title: "Feeding Program",
-                path: "/feeding-program",
-            },
-            {
-                title: "Family Strengthening Program",
-                path: "/family-strengthen-program",
-            },
-            {
-                title: "Shelter Program",
-                path: "/shelter-program",
-            },
-            {
-                title: "Humanitarian Program",
-                path: "/humanitarian-program",
-            },
-            {
-                title: "Health & Nutrition Program",
-                path: "/health-and-nutrition-program",
-            },
-            {
-                title: "Child Safety & Advocacy Program",
-                path: "/child-safety-and-advocacy-program",
-            },
-            {
-                title: "Faith & Development Program",
-                path: "/faith-and-development-program",
-            },
-        ],
+        title: "Services",
+        path: "#what-we-do",
+       
     },
     {
-        title: "Special Highlights",
-        subPath: "/special-highlights",
-        subMenus: [
-            {
-                title: "North-East Nigeria",
-                path: "/north-east-nigeria",
-            },
-            {
-                title: "Hunger Action Month",
-                path: "/hunger-action-month",
-            },
-            {
-                title: "Colouring Dreams Conference 2024",
-                path: "/cdcon-2024",
-            },
-            {
-                title: "Colouring Dream tv",
-                path: "https://colouringdreams.tv/",
-                external: true,
-            },
-            {
-                title: "360 Virtual Tours",
-                path: "https://360.theinnercitymission.ngo/",
-                external: true,
-            },
-            {
-                title: "Video Livestreams",
-                path: "https://icm.ngo/livestream/",
-                external: true,
-            },
-            {
-                title: "Spread Truth Campaign",
-                path: "https://icm.ngo/SpreadTruth/",
-                external: true,
-            },
-        ],
+        title: "Offices",
+        path: "#offices",
+       
     },
     {
-        title: "Support Project",
-        subPath: "/support-project",
-        subMenus: [
-            {
-                title: "5 Billion Meals Campaign",
-                path: "/5-billion-meals-campaign",
-            },
-        ],
+        title: "Testimonials",
+        path: "#support-project",
     },
-    {
-        title: "Blogs",
-        path: "/blogs",
-    },
+   
 ];
 
 export default function useTopnavbar() {
