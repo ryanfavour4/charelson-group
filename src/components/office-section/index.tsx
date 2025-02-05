@@ -5,12 +5,12 @@ import officeimage4 from "/assets/images/office-4.jpg";
 
 export default function OfficeSection() {
   return (
-    <div id="offices" className=" md:px-14 px-5">
+    <div id="offices" className="pb-10 md:px-14 px-5">
       <div className="text-center">
-      <h2 className=" text-[22px] text-blue-800 font-bold pt-20 ">
+      <h2 className=" text-[22px] text-primary/50 font-bold pt-20 ">
             Gallery
           </h2>
-          <h1 className="text-[40px] font-bold pb-16 text-blue-950 ">
+          <h1 className="text-[40px] font-bold pb-16 text-primary">
             Our Space
           </h1>
       </div>
