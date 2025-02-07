@@ -14,11 +14,11 @@ export default function AboutUs() {
             Get to know us
           </h1>
           <p className=" text-gray-700  pb-4">
-            At Charleson Group,We are a trusted hospitality partner with decades of experience,
-            transforming hotels into unforgettable guest experiences. By
-            focusing on operational excellence, revenue growth, and talent
-            development, we help hotel owners achieve lasting success. A vibrant
-            hotel lobby image reflects our dedication to quality and innovation.
+            At Charleson Group, we specialize in making life easier for
+            our clients who own mid-range to luxury apartments. For a flat fee
+            of 1500 Euros a month, our clients gain access to a comprehensive
+            suite of services designed to ensure a hassle free, luxurious living
+            experience.
           </p>
           <>
             <h1 className="text-[30px] font-bold  pb-3 text-blue-950">
