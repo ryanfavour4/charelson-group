@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo from "/assets/icons/charleson-group-logo.png";
 
 export default function Footer() {
