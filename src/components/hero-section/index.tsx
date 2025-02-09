@@ -56,13 +56,12 @@ export default function HeroSection() {
                                 >
                                     Explore More
                                 </a>
-                                <button className="btn flex w-fit items-center gap-1 p-2 ring-light/50">
-                                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-light">
-                                        {/* <PlayIcon className="h-6 w-6 pl-px text-dark" /> */}
-                                        play
-                                    </span>
+                                <a
+                                    className=""
+                                    href="#contact"><button className="btn flex w-fit items-center gap-1 p-2 ring-light/50">
+                                    
                                     <p>Contact now</p>
-                                </button>
+                                </button></a>
                             </div>
                         </div>
                     </div>

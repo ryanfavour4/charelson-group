@@ -4,6 +4,7 @@ import TopNavbar from "./components/topnavbar";
 import OfficeSection from "./components/office-section";
 import ContactUs from "./components/contact-us";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
       <OfficeSection />
       <ContactUs />
       <Toaster toastOptions={{ position: "top-center", duration: 4000 }} />
+      <Footer />
+
     </>
   );
 }
