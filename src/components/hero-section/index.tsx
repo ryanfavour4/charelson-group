@@ -38,7 +38,7 @@ export default function HeroSection() {
                     <div className="absolute inset-0 -z-10 bg-blue-950 opacity-70" />
 
                     {/* HERO CONTENT */}
-                    <div className="wrapper absolute inset-0 flex h-full flex-col justify-between gap-16 p-3 text-light">
+                    <div  data-aos="fade-up" className="wrapper absolute inset-0 flex h-full flex-col justify-between gap-16 p-3 text-light">
                         {/* TOP SECTION */}
                         <div className="flex h-full flex-col justify-center">
                             <h1 className="mb-10 max-w-[600px] text-5xl font-bold md:text-6xl md:leading-snug">

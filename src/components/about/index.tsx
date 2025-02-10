@@ -3,10 +3,10 @@ export default function AboutUs() {
   return (
     <div id="about" className="wrapper md:px-4 px-2 pt-16">
       <div className="md:grid grid-cols-2 place-items-center gap-6">
-        <div className="w-full mb-8 md:mb-0 border-2 border-gray-200 rounded-lg overflow-hidden">
-          <img src={aboutimage} className="w-full" alt="about image" />
+        <div className="w-full mb-8 md:mb-0 border-2 border-gray-200 rounded-lg overflow-hidden ">
+          <img data-aos="fade-right"src={aboutimage} className="w-full " alt="about image" />
         </div>
-        <div className="">
+        <div  data-aos="fade-left" className="">
           <h2 className=" text-[16px] text-blue-800 font-bold pt-2 pb-2 ">
             What We Are About
           </h2>
@@ -14,11 +14,14 @@ export default function AboutUs() {
             Get to know us
           </h1>
           <p className=" text-gray-700  pb-4">
-            At Charleson Group, we specialize in making life easier for
-            our clients who own mid-range to luxury apartments. For a flat fee
-            of 1500 Euros a month, our clients gain access to a comprehensive
-            suite of services designed to ensure a hassle free, luxurious living
-            experience.
+            Welcome to Charleson Group, where exceptional service meets
+            effortless luxury. We specialize in elevating the living experience
+            for owners of mid-range to luxury apartments. With a flat fee of
+            1500 Euros per month, we provide a range of premium services
+            designed to take care of all the details so you can enjoy the
+            lifestyle you deserve. From property maintenance and concierge
+            services to luxury lifestyle management, we are here to offer a
+            seamless, personalized experience that meets your needs.
           </p>
           <>
             <h1 className="text-[30px] font-bold  pb-3 text-blue-950">
@@ -52,7 +55,7 @@ export default function AboutUs() {
             <h2 className=" text-[16px] text-blue-800 font-bold  pb-1 ">
               Luxury Lifestyle Management
             </h2>
-            <ol className="list-disc list-inside text-gray-700 pb-2 font-medium">
+            <ol className="list-disc list-inside text-gray-700 pb-2 ">
               <li>
                 Tailored assistance to meet specific client needs and
                 preferences.
