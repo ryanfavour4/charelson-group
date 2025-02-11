@@ -29,14 +29,14 @@ export default function OfficeSection() {
             className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500 active:scale-105"
           />
         </div>
-        <div data-aos="flip-up" className="border-2 border-gray-500 rounded-lg overflow-hidden h-72">
+        <div data-aos="flip-left" className="border-2 border-gray-500 rounded-lg overflow-hidden h-72">
           <img
             src={officeimage3}
             alt="about image"
             className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500 active:scale-105"
           />
         </div>
-        <div data-aos="flip-down" className="border-2 border-gray-500 rounded-lg overflow-hidden h-72">
+        <div data-aos="flip-right" className="border-2 border-gray-500 rounded-lg overflow-hidden h-72">
           <img
             src={officeimage4}
             alt="about image"
