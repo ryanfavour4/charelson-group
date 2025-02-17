@@ -5,6 +5,7 @@ export default function HeroSection() {
     const images = [
         "/assets/images/hero-image-1.jpg",
         "/assets/images/hero-image-2.jpg",
+        "/assets/images/hero-image-3.jpg",
     ];
     useEffect(() => {
         const timer = setInterval(() => {
